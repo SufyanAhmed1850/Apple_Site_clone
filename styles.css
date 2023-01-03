@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.navbar {
+    background-color: rgb(53, 53, 53);
+}
+
+ul {
+    margin: 0% 12%;
+}
+
+.nav_links,
+.nav_a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 0px;
+    margin-left: 20px;
+    color: white;
+    font-size: 12px !important;
+}
+
+#icon {
+    font-size: 18px !important;
+}
+
+.body_a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 15px;
+    color: rgb(55, 112, 218);
+}
+
+.first_image {
+    background-image: url(./assets/iphone14.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_text {
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: 50px;
+}
+.second_image{
+    background-image: url(./assets/endframe.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.second_text{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 390px;
+}
+.third_image{
+    background-image: url(./assets/apple_watch_series_8.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.third_text{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+.flex{
+    display: flex;
+}
+.first_left_image{
+    background-image: url(./assets/promo_iphone14pro.jpg);
+    height: 550px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.first_left_text{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+.first_right_image{
+    background-image: url(./assets/promo_ipad.jpg);
+    height: 550px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.first_right_text{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    top: 40px;
+}
+.second_left_image{
+    background-image: url(./assets/promo_apple_watch_ultra.jpg);
+    height: 550px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.second_left_text{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    top: 50px;
+}
+.second_right_image{
+    background-image: url(./assets/promo_airpods_pro.jpg);
+    height: 550px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.second_right_text{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+.third_left_image{
+    background-image: url(./assets/promo_macbookair.png);
+    height: 550px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.third_left_text{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    top: 50px;
+}
+.third_right_image{
+    background-image: url(./assets/tile.jpg);
+    height: 550px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.third_right_text{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    top: 50px;
+}
+.footer{
+    background-color: #f1f1f1;
+}
+.footer_cont{
+    width: 70%;
+    margin: auto;
+    font-size: 12px;
+}
+ol{
+    padding: 10px 0px 20px 0px;
+}
+ol li{
+    list-style: none;
+    padding: 4px;
+    color: #000000d2;
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.bold{
+    font-weight: 1000;
+}
+.blue{
+    color: rgb(55, 112, 218);
+}
+.space{
+    margin-left: 5%;
+}
+.edge{
+    float: right;
+}
+.last{
+    padding: 10px 0;
+    color: #000000bb;
+}
