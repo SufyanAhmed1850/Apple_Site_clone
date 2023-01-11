@@ -4,37 +4,32 @@
     box-sizing: border-box;
     font-family: 'Roboto';
 }
-
 .navbar {
     background-color: rgb(53, 53, 53);
+    position: fixed;
+    width: 100%;
 }
-
 ul {
     margin: 0% 12%;
 }
-
-.nav_links,
-.nav_a {
+.nav_links, .nav_a {
     list-style: none;
     text-decoration: none;
     display: inline-block;
     margin: 8px 0px;
     margin-left: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 12px !important;
 }
-
 #icon {
     font-size: 18px !important;
 }
-
 .body_a {
     text-decoration: none;
     font-size: 20px;
     padding: 0px 15px;
     color: rgb(55, 112, 218);
 }
-
 .first_image {
     background-image: url(./assets/iphone14.jpg);
     height: 550px;
@@ -42,7 +37,6 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .first_text {
     text-align: center;
     font-size: 24px;
